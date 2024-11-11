@@ -1,5 +1,5 @@
 <script setup lang="ts">
-enum IToastType {
+const enum IToastType {
   primary = "primary",
   secondary = "secondary",
 }
@@ -72,5 +72,4 @@ const isActive = defineModel<boolean>()
     transform: translateY(0);
   }
 }
-
 </style>

@@ -1,21 +1,21 @@
 <script setup lang="ts">
-
-import Toast from "@/components/Toast.vue"
+import Toast from "@/components/Toast/Toast.vue"
 import { ref } from "vue"
 
-const isToastActive = ref(true)
+const isToastActive = ref(false)
 </script>
 
 <template>
-  dsdsds
-  <div @click="isToastActive = !isToastActive">click</div>
-  <Toast v-model="isToastActive">
-    dsddsds
+  <div @click="isToastActive = !isToastActive" class="button">Toast</div>
+  <Toast
+    v-model="isToastActive">
+    Some info
   </Toast>
-
-
 </template>
 
-<style scoped>
-
+<style scoped lang="scss">
+.button {
+  padding: 10px;
+  border: 1px solid red;
+}
 </style>
