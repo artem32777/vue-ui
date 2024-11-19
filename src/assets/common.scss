@@ -1,0 +1,11 @@
+.component{
+  display: grid;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  h3{
+    border-bottom: 1px solid black;
+    text-align: center;
+  }
+}
