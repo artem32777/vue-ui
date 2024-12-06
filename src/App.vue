@@ -5,6 +5,7 @@ import TabsView from "@/wrapper-components/TabsView.vue"
 import ChartDoughnutView from "@/wrapper-components/ChartDoughnutView.vue"
 import ChartFunnelView from "@/wrapper-components/ChartFunnelView.vue"
 import ChartBarView from "@/wrapper-components/ChartBarView.vue"
+import RadioButtonsView from "@/wrapper-components/RadioButtonsView.vue"
 </script>
 
 <template>
@@ -15,6 +16,7 @@ import ChartBarView from "@/wrapper-components/ChartBarView.vue"
     <ChartDoughnutView />
     <ChartFunnelView />
     <ChartBarView/>
+    <RadioButtonsView/>
   </div>
 </template>
 
